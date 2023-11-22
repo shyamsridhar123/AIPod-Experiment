@@ -1,4 +1,4 @@
-# Azure OpenAI Hackathon Lesson Plan
+# ISD Canada - AI Pod Experiment Lesson Plan
 
 ## Introduction (30 minutes)
 - Customer use-case
