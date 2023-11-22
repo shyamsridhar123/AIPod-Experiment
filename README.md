@@ -1,34 +1,26 @@
-## Workshop Template
+# Azure OpenAI Hackathon Lesson Plan
 
-Welcome to the Next Generation Team's design template for [building workshops](presentation.pptx), a system designed to help Microsoft Student Ambassadors and their partners to create and deliver excellent technical workshops.
+## Introduction (30 minutes)
+- Customer use-case
+- What is Azure OpenAI? An introduction to the AI models provided by Azure.
+- Setting up Azure OpenAI: A step-by-step guide to setting up an Azure OpenAI account and getting your API key.
+- Assignment: Build a story and assets how we sell to customer
 
-## Types of Workshops
+## Lesson 1: Basics of Azure OpenAI (1 hour)
+- Understanding the Azure OpenAI API: An overview of the API and its capabilities.
+- Making simple requests to the API: How to use your API key to make requests to the Azure OpenAI API.
+- Assignment: Write a script to make a request to the Azure OpenAI API. The request should generate a short piece of text based on a prompt.
 
-In this template you will find two types of workshops that you can build:
+## Lesson 2: Building a Simple Chatbot with Azure OpenAI (1 hour)
+- Structuring input for a chatbot: How to structure the input to the API to create a chatbot.
+- Building a simple chatbot: A step-by-step guide to building a simple chatbot using the Azure OpenAI API.
+- Assignment: Improve the chatbot by adding more features. For example, you could add a feature that allows the chatbot to remember previous messages.
 
-* **[Workshops](./workshop/README.md)** - a workshop that is designed to be completed within 30-90 minutes with content derived from [Microsoft Learn](https://learn.microsoft.com).
-* **[Short Workshops](./short-workshop/README.md)** - a workshop that is designed to be completed within 15-30 minutes with content derived from [Microsoft Learn](https://learn.microsoft.com). 
+## Lesson 3: Advanced Features of Azure OpenAI (1 hour)
+- Advanced features of the Azure OpenAI API: An overview of the more advanced features of the API, such as fine-tuning.
+- Using these features in the chatbot: How to use these advanced features to improve your chatbot.
+- Assignment: Add an advanced feature to the chatbot. For example, you could add a feature that allows the chatbot to generate more creative responses.
 
-## Style Guide
-
-To present a unified voice, please use [this style guide](https://github.com/jlooper/curriculum-template/wiki/Voice) to shape your writing.
-
-## Building a Workshop
-
-- [ ] Decide what kind of workshop you want to design and sync with project lead to work out details.
-- [ ] Discuss your plan with your lead and add it to our DevOps board.
-- [ ] Design your workshop following these steps.
-    - [ ] Fork this template repo to your local machine.
-    - [ ] In the folder of your chosen type of workshop, fill out the [workshop-designer](./workshop/workshop-designer.md) document to design the experience.
-    - [ ] Build slides for the workshop using the appropriate template, depending on which type of workshop you are building. 
-        - For Workshops, use our Particle tool to generate slides. Contact Chris Noring for help.
-        - For Short-form workshops, slides are optional.
-    - [ ] Write instructions for your workshop based on the README.md file in your folder's template. Your README.md work is minimal, and mostly links back to the source Learn module. Make sure to include a Call to Action with an instrumented link leading back to Docs and/or Learn to learn more.
-    - [ ] If your workshop needs to diverge significantly from the Learn module, write out the steps as milestones, adding images and screenshots as needed.
-    - [ ] Give your folder a descriptive name and PR the folder to the Next Generation Team's workshop library using [the library's PR template](https://github.com/microsoft/workshop-library)
-- [ ] Trainers: Contact Chris Noring to present your workshop to Microsoft Student Ambassadors to generate a Train the Trainer video for inclusion in the library.
-- [ ] Ambassadors: present workshops to your communities sourced from [the workshop library](https://github.com/microsoft/workshop-library). You can edit and use a [copy of this poster](https://www.canva.com/design/DAEuDXXR9us/share/preview?token=Je0_213uqxmYaXnNYz1v-Q&role=EDITOR&utm_content=DAEuDXXR9us&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) to publicize it.
-
-## Slides about this project
-
-- [Explanatory slide deck](https://github.com/microsoft/workshop-template/blob/main/presentation.pptx?raw=true)
+## Final Demo and Q&A (30 minutes)
+- Demo of a more complex chatbot: A demonstration of a chatbot that uses the advanced features of the Azure OpenAI API.
+- Q&A session: An opportunity for students to ask questions about the material covered in the hackathon.
